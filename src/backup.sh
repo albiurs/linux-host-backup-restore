@@ -9,7 +9,7 @@
 backup_files="/home /var/spool/mail /etc /root /boot /opt"
 
 # Where to backup to.
-dest="/mnt/backup"
+dest="/data/backup"
 
 # Create archive filename.
 day=$(date +%A)
