@@ -31,11 +31,11 @@ Edit the crontab file:
 ## Restore
 
 List archive contents:
-<pre><code>tar -tzvf /mnt/backup/host-Monday.tgz</code></pre>
+<pre><code>tar -tvzpf /mnt/backup/host-Monday.tgz</code></pre>
 
 Restore to different directory:
-<pre><code>tar -xzvf /mnt/backup/host-Monday.tgz -C /tmp etc/hosts</code></pre>
+<pre><code>tar -xvzpf /mnt/backup/host-Monday.tgz -C /tmp etc/hosts</code></pre>
 
 Restore to original directory:
 <pre><code>cd /
-sudo tar -xzvf /mnt/backup/host-Monday.tgz</code></pre>
+sudo tar -xvzpf /mnt/backup/host-Monday.tgz</code></pre>
