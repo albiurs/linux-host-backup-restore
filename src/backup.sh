@@ -1,9 +1,9 @@
 #!/bin/bash
-####################################
-#
-# Backup to NFS mount script.
-#
-####################################
+PATH=/sbin:/usr/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin
+
+###########################
+# Backup linux host config
+###########################
 
 # What to backup. 
 backup_files="/home /var/spool /etc /root /boot /opt"
