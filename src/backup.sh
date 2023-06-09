@@ -9,7 +9,7 @@ PATH=/sbin:/usr/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin
 backup_files="/home /var/spool /etc /root /boot /opt"
 
 # Where to backup to.
-dest="/data/backup"
+dest="/path/to/backup"
 
 # Create archive filename.
 day=$(date +%A)
